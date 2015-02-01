@@ -279,10 +279,9 @@ p.copyright {
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
 }
 .rocket.pos{
-    top:25%;
-    right:20%;
+    top:160px;
+    right:256px;
     left: auto;
-    z-index: 9;
 }
 .rocket_img {
     height: 223px;
@@ -295,9 +294,10 @@ p.copyright {
 
 }
 .rocket_fire.pos{
-    top:48%;
-    right:19%;
+    top:312px;
+    right:243px;
     left: auto;
+    z-index: 0;
 }
 .fire_img {
     height: 200px;
@@ -335,4 +335,7 @@ and (max-device-width : 480px) {
     input[type=email]{
       width:100% !important;
     }
+}
+.main-block {
+    z-index: 10;
 }
