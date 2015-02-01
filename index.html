@@ -40,19 +40,47 @@
 <body>
 
     <div class="cloud floating">
-        <img src="assets/img/cloud.png" alt="Proalab.com Design Team">
+        <img src="assets/img/cloud_1.png" alt="Proalab.com Design Team">
     </div>
 
     <div class="cloud pos1 fliped floating">
-        <img src="assets/img/cloud.png" alt="Proalab.com Design Team">
+        <img src="assets/img/cloud_1.png" alt="Proalab.com Design Team">
     </div>
 
     <div class="cloud pos2 floating">
-        <img src="assets/img/cloud.png" alt="Proalab.com Design Team">
+        <img src="assets/img/cloud_1.png" alt="Proalab.com Design Team">
     </div>
 
     <div class="cloud pos3 fliped floating">
-        <img src="assets/img/cloud.png" alt="Proalab.com Design Team">
+        <img src="assets/img/cloud_1.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos1">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos2">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos3">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos4">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos5">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="star pos6">
+        <img class="star_img" src="assets/img/star.png" alt="Proalab.com Design Team">
+    </div>
+
+    <div class="rocket pos">
+        <img class="rocket_img" src="assets/img/rocket.png" alt="Proalab.com Design Team">
     </div>
 
 
@@ -65,11 +93,11 @@
                     <br/>
                     <h2 class="subtitle">We're working hard to launch our website and we'll be ready very soon</h2>
                     <br/>
-                    <form class="form-inline validate signup" action="" method="get" role="form">
                     <h2 class="subtitle"><div id="clock"></div></h2>
                     <script type="text/javascript">
                         $('#clock').countdown('2020/10/10', function(event) {
                             var $this = $(this).html(event.strftime(''
+                            + '<b><span>%Y</span></b> years '
                             + '<b><span>%w</span></b> weeks '
                             + '<b><span>%d</span></b> days '
                             + '<b><span>%H</span></b> hr '
@@ -78,12 +106,14 @@
                             });
                     </script>
                     <br/>
-                    <form class="form-inline validate signup" action="" method="get" role="form">
+                    <!-- Mailchimp subscribe -->
+                    <form class="form-inline validate signup" action="http://mailchimp_link" method="get" role="form">
                         <div class="form-group">
                             <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address">
                         </div>
                         <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme">
                     </form>
+                    <!-- Mailchimp subscribe -->
                     <br/>
                 </div>
                 <div class="col-sm-12 align-center">
@@ -103,7 +133,7 @@
             <br/>
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <p class="copyright">Copyright &copy; 2013 - <a href="http://proalab.com" target="_blank">Proalab.com</a>
+                    <p class="copyright">Copyright &copy; 2015 - <a href="http://www.proalab.com" target="_blank">Proalab.com</a>
                     </p>
                 </div>
             </div>
@@ -111,7 +141,8 @@
     </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Mailchimp subscribe -->
+    <!--
     <script src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
     <script>
         
@@ -156,6 +187,8 @@ function register($form) {
     });
 }
     </script>
+    -->
+    <!-- Mailchimp subscribe -->
 
 </body>
 

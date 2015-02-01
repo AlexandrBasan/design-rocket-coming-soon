@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 
 body {
-	background: #6ac0bd;
+	background: #7ac1de;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -38,7 +38,7 @@ p {
 
 
 a {
-    color: #ACBAC1;
+    color: #ffffff;
     word-wrap: break-word;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -121,13 +121,21 @@ form.signup input.form-control:focus {
 
 /* wrapper */
 
+/* Color background style */
 #wrapper {
 	text-align: center;
-	background: url(../img/main-bg-compressor.jpg) no-repeat center top;
-	background-attachment: relative;
-	background-position: center center;
-  box-sizing:border;
-	width: 100%;	
+	background-color: #7ac1de;
+	width: 100%;
+}
+
+/* Image background style */
+/*#wrapper {
+    text-align: center;
+    background: url(../img/main-bg-compressor.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    box-sizing:border;
+    width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -137,7 +145,7 @@ form.signup input.form-control:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 #wrapper > .container{
   padding-top: 50px;
@@ -210,6 +218,60 @@ p.copyright {
 }
 .cloud.pos3 img{
   width:180px;
+}
+
+.star {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+}
+.star.pos1{
+    top:5%;
+    left:5%;
+    right: auto;
+}
+.star.pos2{
+    top:25%;
+    left:8%;
+    right: auto;
+}
+.star.pos3{
+    top:11%;
+    right:12%;
+    left: auto;
+}
+.star.pos4{
+    top:26%;
+    right:5%;
+    left: auto;
+}
+.star.pos5{
+    top:4%;
+    right:35%;
+    left: auto;
+}
+.star.pos6{
+    top:17%;
+    right: auto;
+    left: 16%;
+}
+.rocket {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+}
+.rocket.pos{
+    top:4%;
+    right:5%;
+    left: auto;
+}
+.rocket_img {
+    height: 223px;
+    width: 100px;
+}
+.star_img {
+    height: 15px;
+    width: 15px;
 }
 
 .result{
