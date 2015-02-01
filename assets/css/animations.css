@@ -727,6 +727,7 @@ pulse
 */
 
 .pulse{
+
 	animation-name: pulse;
 	-webkit-animation-name: pulse;	
 
@@ -740,11 +741,11 @@ pulse
 @keyframes pulse {
 	0% {
 		transform: scale(0.9);
-		opacity: 0.7;		
+		opacity: 0.7;
 	}
 	50% {
 		transform: scale(1);
-		opacity: 1;	
+		opacity: 1;
 	}	
 	100% {
 		transform: scale(0.9);
