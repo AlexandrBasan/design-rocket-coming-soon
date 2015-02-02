@@ -260,9 +260,7 @@ p.copyright {
     width: 15px;
 }
 .rocket {
-    position: fixed;
-    bottom: 40px;
-    left: 20px;
+
 
     /* CSS Rotation */
     /* Firefox */
@@ -279,29 +277,28 @@ p.copyright {
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
 }
 .rocket.pos{
-    top:160px;
-    right:256px;
+    top:10px;
+    right:10px;
     left: auto;
+    position: relative;
+    z-index: 1;
 }
 .rocket_img {
     height: 223px;
     width: 110px;
 }
-.rocket_fire {
-    position: fixed;
-    bottom: 40px;
-    left: 20px;
-
-}
-.rocket_fire.pos{
-    top:312px;
-    right:243px;
-    left: auto;
-    z-index: 0;
-}
 .fire_img {
+    height: 190px;
+    margin-top: -58px;
+    margin-left: -82px;
+}
+.rocket_fired {
+    position: fixed;
     height: 200px;
-    width: 170px;
+    width: 200px;
+    top:120px;
+    right: 100px;
+    left: auto;
 }
 
 .result{
